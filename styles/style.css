@@ -25,6 +25,7 @@ ul {
     padding: 0 20px;
     margin: 0 auto;
 }
+
 /*HEADER*/
 
 .header {
@@ -153,6 +154,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 25px;
 }
 
 .chow-all-new {
@@ -162,7 +164,7 @@ ul {
 }
 
 .two {
-    padding: 25px 0 ;
+    padding: 25px 0;
 }
 
 .wrapper-link {
@@ -194,7 +196,7 @@ ul {
     font-size: 18px;
 }
 
-.wrapper-right-main-events-link a{
+.wrapper-right-main-events-link a {
     display: block;
 }
 
@@ -202,6 +204,10 @@ ul {
     color: #F26933;
     margin-bottom: 5px;
     font-size: 16px;
+}
+
+.five .wrapper-main-events .card-main-events .left-main-events img {
+    width: 220px;
 }
 
 /*ASIDE*/
@@ -216,7 +222,6 @@ ul {
     border-bottom: 1px solid #F26933;
 }
 
-
 .main-image-aside {
     margin-top: 25px;
     display: block;
@@ -224,10 +229,24 @@ ul {
     height: 100%;
     object-fit: cover;
 }
+
 .aside p {
     font-size: 18px;
 }
 
 .aside .wrapper-link-one {
     border-top: 1px solid gainsboro;
+}
+
+.aside .wrapper-main-events .card-main-events {
+    display: block;
+}
+
+.aside .wrapper-main-events .card-main-events .left-main-events {
+    margin-right: 0;
+}
+
+.aside .wrapper-main-events .card-main-events .left-main-events .video-image {
+    width: 100%;
+    margin-bottom: 10px;
 }
